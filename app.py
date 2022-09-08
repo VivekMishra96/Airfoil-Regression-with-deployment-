@@ -7,7 +7,7 @@ import sklearn as sns
 
 app= Flask(__name__)
 model= pickle.load(open('model.pkl','rb'))
-@app.route('/home')
+@app.route('/')
 def home():
     #return 'Hello World'
     return render_template('home.html')
