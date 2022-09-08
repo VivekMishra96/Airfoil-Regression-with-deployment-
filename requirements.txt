@@ -5,7 +5,7 @@ Werkzeug
 numpy
 pandas
 scipy
-scikti-learn
+scikit-learn
 matplotlib
 
 
